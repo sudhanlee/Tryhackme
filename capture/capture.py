@@ -5,7 +5,7 @@ import re
 
 req = requests.Session()
 
-url = "http://10.10.205.5/login"
+url = "http://x.x.x.x/login"
 
 f = open("usernames.txt",'r')
 username = f.readlines()
